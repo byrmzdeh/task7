@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    margin: 20px auto;
+}
+
+.menu li {
+    background-color: rgb(239, 192, 104);
+    padding: 40px;
+    border: 1px solid orange;
+}
+
+.menu li:hover {
+    background-color: rgb(235, 166, 39);
+}
+
+li a {
+    color: white;
+}
+
+.two {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.two:hover .submenu {
+    display: block;
+}
